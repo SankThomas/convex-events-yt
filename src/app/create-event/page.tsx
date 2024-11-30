@@ -40,7 +40,7 @@ export default function CreateEvent() {
   }
 
   return (
-    <div className="mx-auto mt-10 max-w-3xl">
+    <div className="mx-auto mt-10 max-w-3xl px-2">
       <h2 className="mb-6 text-xl font-bold">Create Event</h2>
       <form onSubmit={handleCreateEvent} className="space-y-4">
         <div className="grid gap-4 sm:grid-cols-2">
